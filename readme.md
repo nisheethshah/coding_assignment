@@ -12,9 +12,14 @@ This project implements an ETL (Extract, Transform, Load) pipeline that reads me
 ├── Dockerfile
 ├── docker-compose.yml
 ├── main.py
+├── test_main.py
 ├── member-data.csv
 ├── requirements.txt
 └── README.md
+
+Tests test_main.py in IDE terminal:
+python -m unittest test_main.py
+
 
 Dockerfile
 Defines the Docker image for the ETL pipeline:
